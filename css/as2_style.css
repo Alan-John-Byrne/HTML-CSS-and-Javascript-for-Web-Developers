@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0em;
+}
+/* Main Heading CSS */ 
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+/* Headings Css */
+#heading1 {
+    position: relative;
+    left: 1.5px;
+    bottom: 1.5px;
+    margin: 0em 0em 1em 0em;
+    padding: 0em 1.5em 0em 1.5em;
+    background-color: pink;
+    border: 2px solid black;
+    float: right;
+}
+#heading2 {
+    position: relative;
+    left: 2px;
+    bottom: 1.5px;
+    margin: 0em 0em 1em 0em;
+    padding: 0em 1.5em 0em 1.5em;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    float: right;
+}
+#heading3 {
+    position: relative;
+    left: 1.5px;
+    bottom: 1.5px;
+    margin: 0em 0em 1em 0em;
+    padding: 0em 1.5em 0em 1.5em;
+    background-color: yellow;
+    border: 2px solid black;
+    float: right;
+}
+/* Text within dividers CSS */
+p {
+    clear:right;
+    margin: 1em;
+}
+/* Entire Section */
+section {
+    display: flex;
+}
+/* All dividers CSS */
+div {
+    width: 33%;
+    background-color: gray;
+    margin: 15px;
+    border: 2px solid black;
+}
+/* Footer css */
+footer {
+    margin-top: 15em;
+    margin-left: 3em;
+ }
+/*Media Queries*/
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 992px) {
+    section {
+        flex-wrap: wrap;
+    }
+    #Box1 {
+        width: 45%;
+    }
+    #Box2 {
+        width: 45%;
+        position: relative;
+        left: 2px;
+        bottom: 1.5px;
+    }
+    #Box3 {
+        width: 94%;
+    }
+    footer {
+        margin-top: 5em;
+        margin-left: 3em;
+     }
+}
+/* Mobile View */
+@media (max-width: 767px) {
+    section {
+        flex-wrap: wrap;
+    }
+    #Box1 {
+        width: 100%;
+    }
+    #Box2 {
+        width: 100%;
+        position: relative;
+        left: 2px;
+        bottom: 1.5px;
+    }
+    #Box3 {
+        width: 100%;
+    }
+    footer {
+        margin-top: 2em;
+        margin-left: 3em;
+     }
+}

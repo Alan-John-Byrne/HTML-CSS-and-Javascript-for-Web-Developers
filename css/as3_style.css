@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0em;
+}
+/* Header */
+header {
+    background-color: gray;
+    font-size: 1.8em;
+    border: 3px solid black;
+    margin: 0;
+    padding-left: 1em;
+}
+/* Page Heading CSS */ 
+h1 {
+    text-align: center;
+    margin-top: 5%;
+}
+/* Headings in each divider Css */
+#heading {
+    margin: 0em 0em 1em 0em;
+    padding: 0em 1.5em 0em 1.5em;
+    text-align: center;
+}
+/* Text within dividers CSS */
+p {
+    clear:right;
+    margin: 1em;
+}
+/* All columns CSS */
+div .col{
+    width: 100%;
+    background-color: gray;
+    border: 1px solid black;
+    margin-top: 0.1em;
+}
+/* Space Between boxes */
+#Box1 {
+    margin: 25px;
+}
+#Box2 {
+    margin: 25px;
+}
+#Box3 {
+    margin: 25px;
+}
+/* Links and Nav */
+li {
+    background-color: white;
+    border: 1px black groove;
+}
+.nav-link {
+    color: black;
+}
+/* Footer css */
+footer {
+    margin-top: 15em;
+    margin-left: 3em;
+ }
+ /* Tablet View */
+@media (min-width: 768px) and (max-width: 992px) {
+    footer {
+        margin-top: 5em;
+        margin-left: 3em;
+     }
+}
+/* Mobile View */
+    footer {
+        margin-top: 2em;
+        margin-left: 3em;
+     }
+}
