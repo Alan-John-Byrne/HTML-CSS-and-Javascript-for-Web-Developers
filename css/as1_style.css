@@ -6,35 +6,25 @@ body {
 #Header {
     background-color: antiquewhite;
     display: flex;
+    justify-content: space-between;
     padding: 0.1em;
-    justify-content: center;
 }
 #Header a, #Header img{
     height: 2em;
     width: 15em;
-    margin-top: 0.25em;
+    margin-top: 0.1em;
     margin-right: 17em;
-}
-h3 {
-    font-size: 0.9em;
 }
 /* Main Body of sight */
 #main {
     background-color: aqua;
-    padding: 1em 0em 2em 0em;
+    text-align: center;
+    padding: 1em 0em 19.95em 0em;
 }
 #Explanation {
     background-color: antiquewhite;
-    margin: 0.64em 14em 0em 14em;
+    margin: 14em 6em 0em 8.5em;
     border: 0.1em groove grey;
-    text-align: center;
-}
-#options {
-    margin: 0em 25em 0em 25em;
-}
-#options a{
-    text-decoration: none;
-    color: black;
 }
 ul li{
     background-color: bisque;
@@ -42,19 +32,6 @@ ul li{
     margin-top: 1em;
     padding: 1em;
     border: 0.1em groove grey;
-    text-decoration: none;
-    text-align: center;
-}
-#Explanation-2 {
-    background-color: antiquewhite;
-    margin: 1em 14em 0em 14em;
-    border: 0.1em groove grey;
-    text-align: center;
-}
-#Explanation-2 a{
-    text-decoration: none;
-    color: blue;
-    font-style: oblique;
 }
 /* footer of sight */
 footer {
