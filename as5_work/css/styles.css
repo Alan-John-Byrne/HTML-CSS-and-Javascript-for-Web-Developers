@@ -80,6 +80,10 @@ body {
   clear: both;
   margin-top: -30px;
 }
+/* Back Button to Index Home Page*/
+a {
+  color:#000;
+}
 /* END HEADER */
 
 /* FOOTER */
