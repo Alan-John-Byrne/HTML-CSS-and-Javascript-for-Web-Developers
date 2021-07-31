@@ -7,6 +7,11 @@ h1 {
     text-align: center;
     margin-bottom: 5%;
 }
+#back_button{
+    margin: 3em 0em 0em 1em;
+    position: relative;
+    top: 1em;
+}
 /* Headings Css */
 #heading1 {
     position: relative;
@@ -55,11 +60,6 @@ div {
     margin: 15px;
     border: 2px solid black;
 }
-/* Footer css */
-footer {
-    margin-top: 15em;
-    margin-left: 3em;
- }
 /*Media Queries*/
 
 /* Tablet View */
@@ -79,10 +79,6 @@ footer {
     #Box3 {
         width: 94%;
     }
-    footer {
-        margin-top: 5em;
-        margin-left: 3em;
-     }
 }
 /* Mobile View */
 @media (max-width: 767px) {
@@ -101,8 +97,4 @@ footer {
     #Box3 {
         width: 100%;
     }
-    footer {
-        margin-top: 2em;
-        margin-left: 3em;
-     }
 }

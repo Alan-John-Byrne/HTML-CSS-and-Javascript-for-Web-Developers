@@ -15,6 +15,13 @@ h1 {
     text-align: center;
     margin-top: 5%;
 }
+/* Back to Index button */
+#back_button {
+    margin-left: 1em;
+    position: relative;
+    top: 1em;
+
+}
 /* Headings in each divider Css */
 #heading {
     margin: 0em 0em 1em 0em;
