@@ -7,19 +7,22 @@ body {
     background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
-    padding: 0.1em;
+    padding: 0.75em;
+    justify-content: center;
 }
 #Header a, #Header img{
     height: 2em;
     width: 15em;
-    margin-top: 0.1em;
-    margin-right: 17em;
+}
+#Header a:hover, #Header img:hover{
+    filter: saturate(10);
+    transition: 500ms;
 }
 /* Main Body of sight */
 #main {
     background-color: aqua;
     text-align: center;
-    padding: 1em 0em 19.95em 0em;
+    padding: 1em 0em 17.5em 0em;
 }
 #Explanation {
     background-color: antiquewhite;
@@ -49,4 +52,35 @@ footer a{
 footer img  {
     height: 2.5%;
     width: 2.5%;
+}
+/* Media Queries */
+ /* Tablet View */
+ @media (min-width: 768px) and (max-width: 992px) {
+    #options {
+        margin: 0em 5em 0em 10em;
+    }
+    #Explanation-2 {
+        margin: 1em 5em 0em 5em;
+    }
+    #Explanation {
+        margin: 0.64em 14em 0em 14em;
+    }
+}
+ /* Mobile View */
+@media (max-width: 767px) {
+    #options {
+        margin: 0em 5em 0em 5em;
+    }
+    #Explanation-2 {
+        margin: 1em 5em 0em 5em;
+    }
+    #Explanation {
+        margin: 0.64em 5em 0em 5em;
+    }
+}
+ /* Large Monitor View */
+@media (min-width: 1400px){
+    #main {
+        padding: 7em 0em 24.6em 0em;
+    }
 }

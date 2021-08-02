@@ -136,3 +136,9 @@ footer img  {
         margin: 0.64em 5em 0em 5em;
     }
 }
+/* Large Monitor View */
+@media (min-width: 1400px){
+    #main {
+        padding: 7em 0em 9.75em 0em;
+    }
+}
